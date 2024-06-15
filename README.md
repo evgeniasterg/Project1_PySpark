@@ -37,6 +37,12 @@ Each step demonstrates best practices for working with large-scale data in a dis
    
 4. planes.csv: Sample dataset containing aircraft information.
 
+# Results 
+We used the Evaluator in order to measure the performance of our Binary Classification Model, (such as Logistic Regression), specifically by calculating the area under the Receiver Operating Characteristic (ROC) curve (areaUnderROC). 
+tHE 'test_results' is a DataFrame that contains the predictions made by our best logistic regression model (best_lr) on the test dataset. 
+It includes predicted probabilities and possibly other columns like prediction (binary predictions) and label (actual labels).
+The evaluation score (0.678187114993716) gives us an indication of how well our logistic regression model is performing in terms of classifying flights as either delayed (is_late) or not, based on the features we provided. 
+
 # Next Steps
 -Explore additional datasets or customize the pipeline for your specific use case.
 
